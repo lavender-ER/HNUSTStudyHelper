@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:background="@color/bac_white"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+
+            <TextView
+                android:id="@+id/item_tv_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:paddingLeft="8px"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/item_tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:paddingLeft="8px"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/item_tv_score_total"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="50dp"
+                android:paddingLeft="5px"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/item_tv_date"
+                android:layout_width="124dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="50dp"
+                android:paddingLeft="5px"
+                android:text="@string/app_name"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                tools:ignore="MissingConstraints" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

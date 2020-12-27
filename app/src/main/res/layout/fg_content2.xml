@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/cetTitle"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/bac"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="8px"
+                    android:text="@string/cet_id"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:paddingLeft="8px"
+                    android:text="@string/cet_name"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:paddingLeft="5px"
+                    android:text="@string/cet_grade"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="124dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="50dp"
+                    android:paddingLeft="5px"
+                    android:text="@string/cet_date"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/lv"
+                android:layout_width="400dp"
+                android:layout_height="200dp"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/bac"
+                android:divider="@color/bac_white"
+                android:dividerHeight="1dp"
+                android:textAlignment="center">
+
+            </ListView>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="225dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/arrange"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:background="@drawable/bac"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="8px"
+                    android:text="@string/cet_id"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:paddingLeft="8px"
+                    android:text="@string/exam_name"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:paddingLeft="5px"
+                    android:text="@string/exam_room"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="124dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:paddingLeft="5px"
+                    android:text="@string/exam_time"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+
+            <ListView
+                android:id="@+id/lv_arrange"
+                android:layout_height="225dp"
+                android:layout_width="350dp"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textAlignment="center">
+
+            </ListView>
+
+        </LinearLayout>
+
+
+        <!--    <hlq.tablbeview.TableView-->
+        <!--        android:id="@+id/tabview"-->
+        <!--        android:layout_width="wrap_content"-->
+        <!--        android:layout_height="wrap_content"-->
+        <!--        app:colnum="7"-->
+        <!--        app:rownum="5"-->
+        <!--        app:tablecontent_height="200" />-->
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="500dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/last_term"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/bac"
+                android:orientation="vertical">
+
+                <!--            <LinearLayout-->
+                <!--                android:layout_width="wrap_content"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:layout_marginLeft="50dp"-->
+                <!--                android:layout_marginTop="10dp">-->
+
+                <!--                <org.angmarch.views.NiceSpinner-->
+                <!--                    android:id="@+id/nice_spinner3"-->
+                <!--                    android:layout_width="100dp"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:layout_marginLeft="16dp"-->
+                <!--                    android:text="@string/score" />-->
+
+                <!--                <TextView-->
+                <!--                    android:id="@+id/infom3"-->
+                <!--                    android:layout_width="100dp"-->
+                <!--                    android:layout_height="wrap_content"-->
+                <!--                    android:text="2019-2020-1"-->
+                <!--                    android:textColor="@color/black"-->
+                <!--                    android:textSize="14dp" />-->
+
+                <!--                <Button-->
+                <!--                    android:id="@+id/btn1"-->
+                <!--                    android:layout_width="50dp"-->
+                <!--                    android:layout_height="40dp"-->
+                <!--                    android:width="50dp"-->
+                <!--                    android:background="@drawable/bac"-->
+                <!--                    android:text="@string/submit" />-->
+
+                <!--            </LinearLayout>-->
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="140dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/name"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="15dp"
+                        android:textColor="@color/black"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/score"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/attribute"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="30dp"
+                        android:textColor="@color/black"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="5dp"
+                        android:text="@string/point"
+                        android:textSize="14dp" />
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="30dp"
+                        android:textColor="@color/black"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginRight="0dp"
+                        android:text="@string/maxScore"
+                        android:textSize="14dp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ListView
+                android:id="@+id/grade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_marginLeft="20dp"
+                android:textAlignment="center">
+
+            </ListView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

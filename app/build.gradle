@@ -1,0 +1,63 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.3"
+
+    packagingOptions {
+        pickFirst 'stylesheet.css'
+        exclude 'META-INF/atomicfu.kotlin_module'
+        exclude 'META-INF/CHANGES'
+        exclude 'index-all.html'
+        exclude 'META-INF/README.md'
+        exclude 'serialized-form.html'
+        exclude 'help-doc.html'
+        exclude 'constant-values.html'
+        exclude 'index.html'
+        exclude 'deprecated-list.html'
+        exclude 'overview-summary.html'
+        exclude 'overview-tree.html'
+
+    }
+
+    defaultConfig {
+        applicationId "com.example.myapplication"
+        minSdkVersion 24
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    compile 'in.srain.cube:ultra-ptr:1.0.11'
+    implementation 'com.github.arcadefire:nice-spinner:1.4.4'
+    compile 'com.hlq:tableview:1.1.0'
+    compile 'com.github.huangyanbin:SmartTable:2.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'com.google.android.material:material:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation files('lib\\support-v4-r6-javadoc.jar')
+    implementation files('lib\\commons-httpclient-3.1.jar')
+    implementation files('lib\\jsoup-1.13.1.jar')
+    implementation files('lib\\jsoup-1.13.1-javadoc.jar')
+    implementation files('lib\\jsoup-1.13.1-sources.jar')
+    testImplementation 'junit:junit:4.+'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}

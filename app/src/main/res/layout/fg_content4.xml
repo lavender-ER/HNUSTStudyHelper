@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dp"
+    android:layout_height="1000dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+        <EditText
+            android:id="@+id/edHint"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:textColor="@color/black"
+            android:hint="@string/hint_week" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:text="@string/week"></TextView>
+        <!--        <org.angmarch.views.NiceSpinner-->
+        <!--            android:id="@+id/nice_spinner"-->
+        <!--            android:layout_width="100dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_margin="16dp"-->
+        <!--            android:width="100dp"-->
+        <!--            android:text="@string/score" />-->
+
+        <!--        <TextView-->
+        <!--            android:id="@+id/infom1"-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:width="20dp"-->
+        <!--            android:text="6"-->
+        <!--            android:textColor="@color/black"-->
+        <!--            android:textSize="14dp" />-->
+
+        <org.angmarch.views.NiceSpinner
+            android:id="@+id/nice_spinner1"
+            android:layout_width="145dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="3dp"
+            android:layout_height="42dp"
+            android:background="@drawable/bac"
+            android:text="@string/score"
+            android:textColor="@color/black"
+            app:textTint="@color/blur" />
+
+        <TextView
+            android:id="@+id/infom2"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="2019-2020-1"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/bac"
+            android:width="50dp"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+
+    <HorizontalScrollView
+        android:layout_width="400dp"
+        android:layout_height="600dp">
+
+
+        <com.bin.david.form.core.SmartTable xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/table"
+            android:layout_width="500dp"
+            android:layout_marginTop="-50dp"
+            android:layout_height="600dp" />
+    </HorizontalScrollView>
+</LinearLayout>

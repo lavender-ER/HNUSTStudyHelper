@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">沃特艾文儿</string>
+    <string name="title_home">主页</string>
+    <string name="title_dashboard">成绩查询</string>
+    <string name="title_grade">课程表</string>
+    <string name="title_notifications">成绩查询</string>
+    <string name="cet">等级成绩查询</string>
+    <string name="cetTitle">等级考试结果</string>
+    <string name="last_term">上学期考试结果</string>
+    <string name="course">课表</string>
+    <string name="grade">课程分数查询</string>
+    <string name="self_grade">考试数据</string>
+    <string name="termCourse">本学期课程</string>
+    <string name="Monday">周一</string>
+    <string name="Tuesday">周二</string>
+    <string name="Wednesday">周三</string>
+    <string name="Thursday">周四</string>
+    <string name="Friday">周五</string>
+    <string name="Saturday">周六</string>
+    <string name="Sunday">周日</string>
+    <string name="NoCourse">今天没有课，但要劳逸结合哦</string>
+    <string name="name">课程名称</string>
+    <string name="score">分数</string>
+    <string name="maxScore">满绩</string>
+    <string name="point">学分</string>
+    <string name="attribute">性质</string>
+    <string name="submit">查询</string>
+    <string name="hint_week">请输入数字</string>
+    <string name="login">登录</string>
+    <string name="week">周</string>
+    <string name="cet_id">序号</string>
+    <string name="cet_name">名称</string>
+    <string name="cet_grade">分数</string>
+    <string name="cet_date">日期</string>
+    <string name="arrange">本学期考试安排</string>
+    <string name="exam_name">名称</string>
+    <string name="exam_room">教室</string>
+    <string name="exam_time">考试时间</string>
+    <string name="tip_account">请输入教务网的账号</string>
+    <string name="tip_password">请输入教务网的密码</string>
+    <string name="off">登出</string>
+
+    <string-array name="week">
+        <item>第一周</item>
+        <item>第二周</item>
+        <item>第三周</item>
+        <item>第四周</item>
+        <item>第五周</item>
+        <item>第一周</item>
+        <item>第一周</item>
+        <item>第一周</item>
+        <item>第一周</item>
+        <item>第一周</item>
+        <item>第一周</item>
+        <item>第一周</item>
+        <item>第一周</item>
+        <item>第一周</item>
+        <item>第一周</item>
+        <item>第一周</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="time">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+</resources>
